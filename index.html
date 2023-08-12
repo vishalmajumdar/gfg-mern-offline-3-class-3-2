@@ -11,30 +11,43 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
+    <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="container">
       <div class="game-field">
+        <!-- player 1 start -->
         <section class="player-1">
-          <h2>PLAYER 1</h2>
-          <h3>0</h3>
+          <div class="player-details">
+            <h2>PLAYER 1</h2>
+            <h3>0</h3>
+          </div>
           <div class="score-1">
-            <p>CURRENT</p>
+            <p class="current">CURRENT</p>
             <p class="score">0</p>
           </div>
         </section>
-        <button>🔁 NEW GAME</button>
-        <button>🎲 ROLL DICE</button>
-        <button>📥 HOLD</button>
+        <!-- player 1 end -->
+        <!-- control start -->
+        <section class="controls">
+          <button class="button-1">🔁 NEW GAME</button>
+          <button class="button-2">🎲 ROLL DICE</button>
+          <button class="button-3">📥 HOLD</button>
+        </section>
+        <!-- controls end -->
+        <!-- player 2 start -->
         <section class="player-2">
-          <h2>PLAYER 2</h2>
-          <h3>0</h3>
+          <div class="player-details">
+            <h2>PLAYER 2</h2>
+            <h3>0</h3>
+          </div>
           <div class="score-2">
-            <p>CURRENT</p>
+            <p class="current">CURRENT</p>
             <p class="score">0</p>
           </div>
         </section>
+        <!-- player 2 end -->
       </div>
     </main>
   </body>

@@ -2,3 +2,114 @@
   margin: 0;
   font-family: "Nunito", sans-serif;
 }
+
+body {
+  background-image: linear-gradient(to bottom right, #c02f35, #753682);
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.game-field {
+  display: flex;
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px -10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+}
+
+.player-1 {
+  background-image: linear-gradient(to bottom right, #e2b0b8, #d5b1c4);
+  flex-grow: 1;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-details h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.player-details h3 {
+  font-size: 60px;
+  color: #c6365f;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.score-1 {
+  background-color: #c6365f;
+  padding: 20px 50px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.current {
+  font-size: 12px;
+}
+
+.score {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.score-2 {
+  background-color: #c3466d;
+  padding: 20px 50px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-1 {
+  position: absolute;
+  top: 10%;
+}
+
+.button-2 {
+  position: absolute;
+  bottom: 30%;
+}
+
+.button-3 {
+  position: absolute;
+  bottom: 18%;
+}
+
+.player-2 {
+  background-image: linear-gradient(to bottom right, #c67c8f, #b27da3);
+  flex-grow: 1;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
